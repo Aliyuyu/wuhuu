@@ -99,8 +99,6 @@ http://10.10.10.10:7088/rtp/239.49.8.29:8000
 http://10.10.10.10:7088/rtp/239.49.8.79:8000
 #EXTINF:-1 tvg-name="第一剧场HD" tvg-logo="https://live.fanmingming.cn/tv/第一剧场HD.png",第一剧场HD
 http://10.10.10.10:7088/rtp/239.49.8.94:8000
-#EXTINF:-1 tvg-name="电视指南HD" tvg-logo="https://live.fanmingming.cn/tv/电视指南HD.png",电视指南HD
-http://10.10.10.10:7088/rtp/239.49.8.84:8000
 #EXTINF:-1 tvg-name="风云足球HD" tvg-logo="https://live.fanmingming.cn/tv/风云足球HD.png",风云足球HD
 http://10.10.10.10:7088/rtp/239.49.8.85:8000
 #EXTINF:-1 tvg-name="高尔夫网球HD" tvg-logo="https://live.fanmingming.cn/tv/高尔夫网球HD.png",高尔夫网球HD
@@ -127,9 +125,5 @@ http://10.10.10.10:7088/rtp/239.49.8.33:8000
 http://10.10.10.10:7088/rtp/239.49.0.209:8000
 #EXTINF:-1 tvg-name="梨园HD" tvg-logo="https://live.fanmingming.cn/tv/梨园HD.png",梨园HD
 http://10.10.10.10:7088/rtp/239.49.8.193:8000
-#EXTINF:-1 tvg-name="大湾区卫视" tvg-logo="https://live.fanmingming.cn/tv/大湾区卫视.png",大湾区卫视
-http://10.10.10.10:7088/rtp/239.49.0.234:8000
 #EXTINF:-1 tvg-name="武术世界HD" tvg-logo="https://live.fanmingming.cn/tv/武术世界HD.png",武术世界HD
 http://10.10.10.10:7088/rtp/239.49.0.205:8000
-#EXTINF:-1 tvg-name="精彩推荐高清" tvg-logo="https://live.fanmingming.cn/tv/精彩推荐高清.png",精彩推荐高清
-http://10.10.10.10:7088/rtp/239.49.8.34:8612
