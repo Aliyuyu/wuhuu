@@ -35,8 +35,6 @@ http://10.10.10.10:7088/rtp/239.49.8.18:9610
 http://10.10.10.10:7088/rtp/239.49.8.115:8000
 #EXTINF:-1 tvg-id="6558" tvg-name="第一剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVdiyijuchang.png" group-title="地方",第一剧场
 http://10.10.10.10:7088/rtp/239.49.8.94:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",电视指南
-http://10.10.10.10:7088/rtp/239.49.8.84:8000
 #EXTINF:-1 tvg-id="6000" tvg-name="风云足球" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfengyunzuqiu.png" group-title="地方",风云足球
 http://10.10.10.10:7088/rtp/239.49.8.85:8000
 #EXTINF:-1 tvg-id="6568" tvg-name="高尔夫网球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE13.jpg" group-title="地方",高尔夫网球
