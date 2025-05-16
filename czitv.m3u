@@ -9,6 +9,8 @@ http://10.10.10.10:7088/rtp/239.49.8.74:8000
 http://10.10.10.10:7088/rtp/239.49.8.51:9806
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视",CCTV5
 http://10.10.10.10:7088/rtp/239.49.8.75:8000
+#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV5+
+http://10.10.10.10:7088/rtp/239.49.8.18:9610
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视",CCTV6
 http://10.10.10.10:7088/rtp/239.49.8.76:8000
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视",CCTV7
@@ -27,6 +29,8 @@ http://10.10.10.10:7088/rtp/239.49.8.55:9822
 http://10.10.10.10:7088/rtp/239.49.8.109:8000
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视",CCTV14
 http://10.10.10.10:7088/rtp/239.49.8.56:9826
+#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV音乐
+http://10.10.10.10:7088/rtp/239.49.0.128:8000
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视",CCTV16
 http://10.10.10.10:7088/rtp/239.49.8.31:8000
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视",CCTV164K(SDR)
@@ -35,10 +39,6 @@ http://10.10.10.10:7088/rtp/239.49.0.109:8000
 http://10.10.10.10:7088/rtp/239.49.8.52:9810
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="地方",CCTV4K
 http://10.10.10.10:7088/rtp/239.49.0.82:8000
-#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV5+
-http://10.10.10.10:7088/rtp/239.49.8.18:9610
-#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV音乐
-http://10.10.10.10:7088/rtp/239.49.0.128:8000
 #EXTINF:-1 tvg-id="73" tvg-name="中国教育1台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="地方",CETV1
 http://10.10.10.10:7088/rtp/239.49.8.115:8000
 #EXTINF:-1 tvg-id="7245" tvg-name="中国教育4台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="地方",CETV4
