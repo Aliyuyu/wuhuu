@@ -143,8 +143,6 @@ http://10.10.10.10:7088/rtp/239.49.0.96:8000
 http://10.10.10.10:7088/rtp/239.49.0.99:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",茶
 http://10.10.10.10:7088/rtp/239.49.0.146:8000
-#EXTINF:-1 tvg-id="7245" tvg-name="中国教育4台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" group-title="地方",4K跨年直播2
-http://10.10.10.10:7088/rtp/239.49.8.82:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",常州新闻综合
 http://10.10.10.10:7088/rtp/239.49.0.221:9594
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",常州生活
