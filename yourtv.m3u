@@ -143,8 +143,6 @@ http://10.10.10.10:7088/rtp/239.49.0.96:8000
 http://10.10.10.10:7088/rtp/239.49.0.99:8000
 #EXTINF:-1,tvg-id="茶" tvg-name="茶" tvg-logo="https://epg.112114.xyz/logo/茶.png" group-title="其他",茶
 http://10.10.10.10:7088/rtp/239.49.0.146:8000
-#EXTINF:-1,tvg-id="4K跨年直播2" tvg-name="4K跨年直播2" tvg-logo="https://epg.112114.xyz/logo/4K跨年直播2.png" group-title="其他",4K跨年直播2
-http://10.10.10.10:7088/rtp/239.49.8.82:8000
 #EXTINF:-1,tvg-id="常州新闻" tvg-name="常州新闻" tvg-logo="https://epg.112114.xyz/logo/常州新闻.png" group-title="其他",常州新闻综合
 http://10.10.10.10:7088/rtp/239.49.0.221:9594
 #EXTINF:-1,tvg-id="常州生活" tvg-name="常州生活" tvg-logo="https://epg.112114.xyz/logo/常州生活.png" group-title="其他",常州生活
