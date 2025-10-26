@@ -47,7 +47,7 @@ http://10.10.10.10:7088/rtp/239.49.8.108:8000?FCC=180.100.72.185:15970
 http://10.10.10.10:7088/rtp/239.49.8.107:8000?FCC=180.100.72.185:15970
 #EXTINF:-1,tvg-id="江苏教育电视台" tvg-name="江苏教育电视台" tvg-logo="https://epg.112114.xyz/logo/江苏教育电视台.png" group-title="江苏",江苏教育
 http://10.10.10.10:7088/rtp/239.49.8.122:8000?FCC=180.100.72.185:15970
-#EXTINF:-1,tvg-id="江苏体育·休闲" tvg-name="江苏体育·休闲" tvg-logo="https://epg.112114.xyz/logo/江苏体育·休闲.png" group-title="江苏",江苏体育·休闲
+#EXTINF:-1,tvg-id="江苏体育·休闲" tvg-name="江苏体育·休闲" tvg-logo="https://epg.112114.xyz/logo/江苏体育.png" group-title="江苏",江苏体育·休闲
 http://10.10.10.10:7088/rtp/239.49.8.117:8000?FCC=180.100.72.185:15970
 #EXTINF:-1,tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://epg.112114.xyz/logo/优漫卡通.png" group-title="其他",优漫卡通
 http://10.10.10.10:7088/rtp/239.49.8.119:8000?FCC=180.100.72.185:15970
