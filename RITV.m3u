@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://epg.136605.xyz/3days.xml"
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://10.10.10.10:7088/http/gslb.itv.jsinfo.net:6060/00000002/01000000000009320253000002939369/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV-1
 http://10.10.10.10:7088/rtp/239.49.8.19:9614?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://10.10.10.10:7088/http/gslb.itv.jsinfo.net:6060/00000002/01000000000003592955000012435088/index.m3u8?Playtype=1&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",CCTV-2
