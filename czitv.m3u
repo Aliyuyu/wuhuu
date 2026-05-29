@@ -125,66 +125,6 @@ http://10.10.10.10:7088/rtp/239.49.8.108:8000?fcc=180.100.72.185:15970
 http://10.10.10.10:7088/rtp/239.49.1.81:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209332383/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",优漫卡通
 http://10.10.10.10:7088/rtp/239.49.8.119:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南京",南京新闻综合
-http://10.10.10.10:7088/rtp/239.49.0.25:8192?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南京",南京十八
-http://10.10.10.10:7088/rtp/239.49.0.26:8200?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南京",南京影视
-http://10.10.10.10:7088/rtp/239.49.0.24:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南京",南京文旅记录
-http://10.10.10.10:7088/rtp/239.49.0.38:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南京",南京少儿
-http://10.10.10.10:7088/rtp/239.49.0.45:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南京",高淳新闻
-http://10.10.10.10:7088/rtp/239.49.0.74:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="徐州",徐州1
-http://10.10.10.10:7088/rtp/239.49.0.203:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="徐州",徐州2
-http://10.10.10.10:7088/rtp/239.49.0.199:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="徐州",徐州3
-http://10.10.10.10:7088/rtp/239.49.0.211:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="徐州",邳州综合
-http://10.10.10.10:7088/rtp/239.49.0.182:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="徐州",睢宁综合
-http://10.10.10.10:7088/rtp/239.49.0.239:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="徐州",新沂1
-http://10.10.10.10:7088/rtp/239.49.0.238:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="徐州",沛县综合
-http://10.10.10.10:7088/rtp/239.49.0.214:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="苏州", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01202005271212120000000000000001/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",苏州5
-http://10.10.10.10:7088/rtp/239.49.8.116:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="泰州",泰州1
-http://10.10.10.10:7088/rtp/239.49.0.215:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="盐城",盐城-1
-http://10.10.10.10:7088/rtp/239.49.8.30:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南通", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000225857877/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",南通1
-http://10.10.10.10:7088/rtp/239.49.0.223:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南通", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000225859113/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",南通2
-http://10.10.10.10:7088/rtp/239.49.0.224:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="南通", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000213373718/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",南通3
-http://10.10.10.10:7088/rtp/239.49.0.197:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="淮安",淮安综合
-http://10.10.10.10:7088/rtp/239.49.0.204:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="淮安",淮安公共
-http://10.10.10.10:7088/rtp/239.49.0.181:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="淮安",淮安影视娱乐
-http://10.10.10.10:7088/rtp/239.49.0.192:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="宿迁",泗洪综合
-http://10.10.10.10:7088/rtp/239.49.0.195:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="连云港",东海综合
-http://10.10.10.10:7088/rtp/239.49.0.121:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="连云港",赣榆综合
-http://10.10.10.10:7088/rtp/239.49.0.241:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="常州",常州综合
-http://10.10.10.10:7088/rtp/239.49.0.221:9594?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="常州",常州都市
-http://10.10.10.10:7088/rtp/239.49.0.220:9590?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="常州",常州生活
-http://10.10.10.10:7088/rtp/239.49.0.219:9586?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="常州",常州公共
-http://10.10.10.10:7088/rtp/239.49.0.218:9582?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="镇江",镇江教育民生
-http://10.10.10.10:7088/rtp/239.49.1.73:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="CETV", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000005619547000112448210/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",CETV-1
 http://10.10.10.10:7088/rtp/239.49.8.115:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="CETV", catchup="append" catchup-source="&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",CETV-2
