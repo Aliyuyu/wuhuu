@@ -35,7 +35,7 @@ http://10.10.10.10:7088/rtp/239.49.0.128:8000?fcc=180.100.72.185:15970
 http://10.10.10.10:7088/rtp/239.49.0.109:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000003101164000012435106/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",CCTV-17
 http://10.10.10.10:7088/rtp/239.49.8.52:9810?fcc=180.100.72.185:15970
-#EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000230656196/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",CCTV-4K
+#EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000230656196/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",CCTV4K
 http://10.10.10.10:7088/rtp/239.49.0.82:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000234408174/index.m3u8?Playtype=1&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",中国天气
 http://10.10.10.10:7088/rtp/239.49.0.94:8000?fcc=180.100.72.185:15970
