@@ -1,3 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #EXTINF:-1 catchup="default" catchup-source="rtsp://180.96.165.41:554/00000001/01000000000009320253000002939369?AuthInfo=pQBkZZBG4IBAUFWneroTz91EBSWvT0iUSN1rSfdu78UzwaDJgATFhi6WIGmuCkgm3KuAYRELlC254GliC21bZ2qwTVQ2T1DOESI0LLE%2FeJw%3D&playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",CCTV1HD
 http://10.10.10.10:7088/rtp/239.49.8.19:9614?FCC=180.100.72.185:15970
+#EXTINF:-1 catchup="default" catchup-source="rtsp://180.96.165.41:554/00000001/01000000000000000000000238866526?AuthInfo=pQBkZZBG4IBAUFWneroTz1aa31dZXDXJh6C1IH2u6A5b%2FhBAjY5xh61vDRZT5KMTXPRp%2Fa%2Fr%2FTPKoxc4Vyz7iGqwTVQ2T1DOESI0LLE%2FeJw%3D&playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",江苏卫视4K
+http://10.10.10.10:7088/rtp/239.49.1.62:8000?fcc=180.100.72.185:15970
+
