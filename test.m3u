@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.zsdc.eu.org/t.xml"
+#EXTM3U x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #EXTINF:-1,tvg-id="CCTV1" , catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000009320253000002939369?AuthInfo=pQBkZZBG4IBAUFWneroTz12K7R23bSeKXL7QuX37Em0zwaDJgATFhi6WIGmuCkgmoB%2B9deXQtp9FHqK38Ol5d2qwTVQ2T1DOESI0LLE%2FeJw%3D&playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1 综合
 http://10.10.10.10:7088/rtp/239.49.8.19:9614?FCC=180.100.72.185:15970
 #EXTINF:-1,tvg-id="CCTV2" , catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000003592955000012435088?AuthInfo=pQBkZZBG4IBAUFWneroTz12K7R23bSeKXL7QuX37Em0B7ekO27lVvzhPNVqwlH3kGcSyVRGWMcLXh%2BYuhVkBxmqwTVQ2T1DOESI0LLE%2FeJw%3D&playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}",tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV-2 财经
