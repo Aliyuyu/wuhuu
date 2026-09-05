@@ -7,7 +7,7 @@ http://10.10.10.10:7088/rtp/239.49.8.50:9802?fcc=180.100.72.185:15970
 http://10.10.10.10:7088/rtp/239.49.8.74:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-name="CCTV4-HD" tvg-id="464590" tvg-chno="4" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000006470781000012435093?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="央视" tvg-logo="https://tb.zbds.top/logo/CCTV4.png",CCTV4-HD
 http://10.10.10.10:7088/rtp/239.49.8.51:9806?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-name="CCTV5-HD" tvg-id="464591" tvg-chno="5" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000002242213000002930093?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="央视" tvg-logo="https://tb.zbds.top/logo/CCTV5.png",CCTV5-HD
+#EXTINF:-1 tvg-name="CCTV5-HD" tvg-id="464591" tvg-chno="5" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000209123269?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="央视" tvg-logo="https://tb.zbds.top/logo/CCTV5.png",CCTV5-HD
 http://10.10.10.10:7088/rtp/239.49.8.75:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-name="CCTV6-HD" tvg-id="464593" tvg-chno="6" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000209123271?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="央视" tvg-logo="https://tb.zbds.top/logo/CCTV6.png",CCTV6-HD
 http://10.10.10.10:7088/rtp/239.49.8.76:8000?fcc=180.100.72.185:15970
