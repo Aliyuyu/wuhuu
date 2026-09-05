@@ -117,11 +117,11 @@ http://10.10.10.10:7088/rtp/239.49.8.108:8000?fcc=180.100.72.185:15970
 http://10.10.10.10:7088/rtp/239.49.8.117:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-name="江苏影视HD" tvg-id="486180" tvg-chno="22" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000209332381?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="卫视" tvg-logo="https://tb.zbds.top/logo/江苏影视.png",江苏影视
 http://10.10.10.10:7088/rtp/239.49.8.118:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-name="常州新闻综合HD" tvg-id="68" tvg-chno="28" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000244132424?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="江苏" tvg-logo="https://tb.zbds.top/logo/常州新闻综合.png",常州新闻综合
+#EXTINF:-1 tvg-name="常州新闻综合HD" tvg-id="" tvg-chno="" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000244132424?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="江苏" tvg-logo="https://tb.zbds.top/logo/常州新闻综合.png",常州新闻综合
 http://10.10.10.10:7088/rtp/239.49.1.83:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-name="常州都市HD" tvg-id="69" tvg-chno="33" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000244132426?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="江苏" tvg-logo="https://tb.zbds.top/logo/常州都市.png",常州都市
+#EXTINF:-1 tvg-name="常州都市HD" tvg-id="" tvg-chno="" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000244132426?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="江苏" tvg-logo="https://tb.zbds.top/logo/常州都市.png",常州都市
 http://10.10.10.10:7088/rtp/239.49.1.84:8000?fcc=180.100.72.185:15970
-#EXTINF:-1 tvg-name="常州生活HD" tvg-id="70" tvg-chno="51" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000244132443?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="江苏" tvg-logo="https://tb.zbds.top/logo/常州生活.png",常州生活
+#EXTINF:-1 tvg-name="常州生活HD" tvg-id="" tvg-chno="" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000244132443?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="江苏" tvg-logo="https://tb.zbds.top/logo/常州生活.png",常州生活
 http://10.10.10.10:7088/rtp/239.49.1.85:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 tvg-name="优漫卡通HD" tvg-id="492643" tvg-chno="23" catchup="default" catchup-source="http://10.10.10.10:7088/rtsp/180.96.165.41:554/00000001/01000000000000000000000209332383?&Playseek=${utc:yyyyMMddHHmmss}-${utcend:yyyyMMddHHmmss}" group-title="卫视" tvg-logo="https://tb.zbds.top/logo/优漫卡通.png",优漫卡通HD
 http://10.10.10.10:7088/rtp/239.49.8.119:8000?fcc=180.100.72.185:15970
