@@ -1,0 +1,101 @@
+(
+IFACE="eth3"
+TARGETS="180.100.0.0/16 180.96.0.0/16"
+IP_CMD="/sbin/ip"
+PID_FILE="/tmp/iptv_gw_main.pid"
+
+log() {
+    echo "$(date '+%Y-%m-%d %H:%M:%S') $1"
+}
+
+# 👇 核心修复：优先使用 BASHPID，回退到 sh -c 获取真实子shell PID
+if [ -n "$BASHPID" ]; then
+    echo "$BASHPID" > "$PID_FILE"
+else
+    # ash/dash 没有 BASHPID 时，通过 exec 替换当前shell并捕获PID
+    REAL_PID=$(sh -c 'echo $PPID')
+    echo "$REAL_PID" > "$PID_FILE"
+fi
+
+log "[IPTV] 等待接口 $IFACE 获取IP... (PID:$(cat $PID_FILE))"
+
+while true; do
+    IP=$($IP_CMD -4 addr show $IFACE | grep inet | awk '{print $2}' | cut -d/ -f1)
+    if [ -n "$IP" ]; then
+        log "[IPTV] 已获取IP: $IP"
+        break
+    fi
+    sleep 5
+done
+
+# 后台监听器
+(
+    PREV_STATE="up"
+    while true; do
+        CUR_IP=$($IP_CMD -4 addr show $IFACE | grep inet | awk '{print $2}')
+        [ -n "$CUR_IP" ] && CUR_STATE="up" || CUR_STATE="down"
+
+        if [ "$PREV_STATE" = "down" ] && [ "$CUR_STATE" = "up" ]; then
+            MAIN_PID=$(cat "$PID_FILE" 2>/dev/null)
+            # 增加详细诊断日志
+            if [ -z "$MAIN_PID" ]; then
+                log "[IPTV] ⚠️ PID文件为空或不可读"
+            elif ! kill -0 "$MAIN_PID" 2>/dev/null; then
+                log "[IPTV] ⚠️ PID $MAIN_PID 进程不存在 (可能PID错误)"
+            else
+                log "[IPTV] 📡 接口重上线，唤醒主进程 PID:$MAIN_PID"
+                kill -USR1 "$MAIN_PID" 2>/dev/null
+            fi
+        fi
+        PREV_STATE="$CUR_STATE"
+        sleep 3
+    done
+) &
+
+trap 'log "[IPTV] ⚡ 收到唤醒信号，跳过等待"' USR1
+
+while true; do
+    IP=$($IP_CMD -4 addr show $IFACE | grep inet | awk '{print $2}' | cut -d/ -f1)
+    [ -z "$IP" ] && { sleep 10; continue; }
+
+    BASE=$(echo $IP | awk -F. '{print $1"."$2"."$3}')
+    CURRENT_ROUTE=$($IP_CMD route | grep -E "180\.100|180\.96" | head -n1)
+    CURRENT_GW=$(echo "$CURRENT_ROUTE" | awk '{print $3}')
+
+    log "[IPTV] 当前IP: $IP | 路由: $CURRENT_ROUTE"
+
+    GW_OK=1
+    [ -n "$CURRENT_GW" ] && { ping -c 2 -W 1 $CURRENT_GW >/dev/null 2>&1; GW_OK=$?; }
+
+    if [ $GW_OK -ne 0 ]; then
+        log "[IPTV] 网关不可用，开始扫描..."
+        FOUND_GW=""
+        for i in 0 1 2 3 4 5 6 7 8 9; do
+            NEW_GW="${BASE}.${i}"
+            if ping -c 1 -W 1 $NEW_GW >/dev/null 2>&1; then
+                FOUND_GW=$NEW_GW
+                log "[IPTV] 发现活跃IP: $FOUND_GW"
+                break
+            fi
+        done
+
+        if [ -n "$FOUND_GW" ]; then
+            log "[IPTV] 更新网关: $FOUND_GW"
+            for TARGET in $TARGETS; do
+                $IP_CMD route del $TARGET 2>/dev/null
+                $IP_CMD route add $TARGET via $FOUND_GW dev $IFACE && \
+                    log "[IPTV] ✅ 路由添加成功: $TARGET" || \
+                    log "[IPTV] ❌ 路由添加失败: $TARGET"
+            done
+        else
+            log "[IPTV] 扫描失败（0-9均不通）"
+        fi
+    else
+        log "[IPTV] 网关 $CURRENT_GW 正常"
+    fi
+
+    sleep 7200 &
+    wait $!
+done
+
+) >> /tmp/iptv_gw.log 2>&1 &
